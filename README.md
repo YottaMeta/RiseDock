@@ -1,32 +1,40 @@
 # RiseDock（启程典）
 
 <p align="center">
-  <strong>按场景组织的 Windows 一键启动器</strong><br>
-  场景 · 启动项 · 热键 · 授权门禁 · 本地备份
+  <img alt="启程典 RiseDock" src="https://img.shields.io/badge/启程典-RiseDock-e8a045?style=for-the-badge&labelColor=071018" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/YottaMeta/RiseDock/releases">下载安装包</a> ·
-  Windows 10/11 64 位
+  <strong>一个场景，一键开工。</strong><br>
+  把软件、文件、文件夹、网址收进场景 · 点一下按顺序全部启动 · 桌面从此只剩一个图标
+</p>
+
+<p align="center">
+  <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a> ·
+  <a href="https://github.com/YottaMeta/RiseDock/releases"><b>免费下载 Windows 版</b></a> ·
+  Win10 / 11 64 位
 </p>
 
 ---
 
-> **说明：** 本仓库 **不提供源代码**，仅发布 **Windows 安装包** 与产品说明。请从 [Releases](https://github.com/YottaMeta/RiseDock/releases) 下载 `RiseDock_*-setup.exe`，不要 clone 本仓库期望得到工程源码。
+> **说明：** 本仓库 **不提供源代码**，仅发布 **Windows 安装包**、[产品官网](https://yottameta.github.io/RiseDock/) 与说明。请从 [Releases](https://github.com/YottaMeta/RiseDock/releases) 下载 `RiseDock_*-setup.exe`，不要 clone 本仓库期望得到工程源码。
 
 ---
 
 ## 产品是什么
 
-**RiseDock（启程典）** 是一款面向日常办公与多项目切换的 **场景式启动器**：
+每天开机都在重复：微信、浏览器、文档、直播工具、IDE……一个个双击。
 
-- 按 **场景** 组织应用 / 文件 / 文件夹 / URL
-- **一键启动** 整组工具，可设启动间隔
+**RiseDock（启程典）** 把它们收进「场景」，一点即开：
+
+- 按 **场景** 组织应用 / 文件 / 文件夹 / URL（直播 / 上班 / 写代码……）
+- **一键启动** 整组工具，可设启动间隔，避免同时挤爆系统
 - 场景 / 全局 **快捷键**、搜索跳转、导入导出与本地备份
-- **授权门禁**：未激活有免费额度；过期冻结超额内容，续费后恢复
+- **授权门禁**：免费额度可用；过期冻结超额内容，续费后恢复（数据不删）
 
-适合：开工一键拉齐工具链、多客户/多项目桌面切换——**不是**应用商店，也不是远程桌面。
+适合：开工一键拉齐工具链、多客户/多项目切换——**不是**应用商店，也不是远程桌面。
 
+想一眼看懂 → **[官网落地页](https://yottameta.github.io/RiseDock/)**
 ---
 
 ## 下载与安装
