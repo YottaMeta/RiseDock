@@ -1,12 +1,12 @@
 # RiseDock（启程典）
 
 <p align="center">
-  <img src="banner.jpg" alt="启程典 RiseDock — 一个场景，一键开工" width="100%" />
+  <img src="banner.jpg" alt="启程典 RiseDock — 你的桌面，从此只剩一个图标" width="100%" />
 </p>
 
 <p align="center">
-  <strong>一个场景，一键开工。</strong><br>
-  把软件、文件、文件夹、网址收进场景 · 点一下按顺序全部启动 · 桌面从此只剩一个图标
+  <strong>你的桌面，从此只剩一个图标。</strong><br>
+  一个场景，一键开工 · 软件 / 文件 / 文件夹 / 网址收进场景 · 点一下按顺序全部启动
 </p>
 
 <p align="center">
