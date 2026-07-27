@@ -89,7 +89,7 @@
 
 ## 版本
 
-以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准（形如 `v1.1.38`）。
+以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准（形如 `v1.2.0`）。
 
 ---
 
