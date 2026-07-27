@@ -1,7 +1,7 @@
 # RiseDock（启程典）
 
 <p align="center">
-  <img src="hero-banner-v2.png" alt="启程典 RiseDock — 你的桌面，从此只剩一个图标 · 一个场景，一键开工" width="100%" />
+  <img src="banner.png" alt="启程典 RiseDock — 你的桌面，从此只剩一个图标 · 一个场景，一键开工" width="100%" />
 </p>
 
 <p align="center">
