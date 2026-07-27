@@ -1,7 +1,7 @@
 # RiseDock（启程典）
 
 <p align="center">
-  <img src="https://yottameta.github.io/RiseDock/banner.jpg" alt="启程典 RiseDock — 一个场景，一键开工" width="720" />
+  <img src="banner.jpg" alt="启程典 RiseDock — 一个场景，一键开工" width="100%" />
 </p>
 
 <p align="center">
