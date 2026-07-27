@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  免费 1 场景 × 3 项 · 白银月卡 ¥9.9 · 黄金季卡 ¥24.9 · 铂金年卡 ¥79 · 永久 ¥128 起
+</p>
+
+<p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a> ·
   <a href="https://github.com/YottaMeta/RiseDock/releases"><b>免费下载 Windows 版</b></a> ·
   Win10 / 11 64 位
