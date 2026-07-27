@@ -413,6 +413,84 @@
     }
     .who-item span { color: var(--fog-dim); font-size: 13px; }
 
+    .price-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 28px;
+    }
+    @media (max-width: 900px) {
+      .price-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 520px) {
+      .price-grid { grid-template-columns: 1fr; }
+    }
+    .price-card {
+      padding: 22px 18px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      backdrop-filter: blur(12px);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: border-color 0.25s, transform 0.25s;
+    }
+    .price-card:hover {
+      border-color: rgba(232, 160, 69, 0.4);
+      transform: translateY(-3px);
+    }
+    .price-card.featured {
+      border-color: rgba(232, 160, 69, 0.45);
+      box-shadow: 0 0 0 1px rgba(232, 160, 69, 0.12);
+      background:
+        radial-gradient(ellipse at 50% 0%, rgba(232,160,69,0.14), transparent 60%),
+        var(--panel);
+    }
+    .price-card .tier {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--dawn-hot);
+    }
+    .price-card .amount {
+      font-family: var(--font-display);
+      font-size: 36px;
+      line-height: 1.1;
+      color: var(--paper);
+    }
+    .price-card .amount small {
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--fog-dim);
+      margin-left: 4px;
+    }
+    .price-card .meta {
+      font-size: 13px;
+      color: var(--fog-dim);
+      margin-top: 4px;
+    }
+    .perm-table {
+      width: 100%;
+      margin-top: 28px;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    .perm-table th,
+    .perm-table td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+    }
+    .perm-table th {
+      color: var(--fog-dim);
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+    }
+    .perm-table td { color: var(--fog); }
+    .perm-table td strong { color: var(--dawn-hot); font-weight: 700; }
+
     .offer {
       text-align: center;
       padding: 72px 28px;
@@ -506,7 +584,10 @@
       <span class="cn">启程典</span>
       <span class="en">RiseDock</span>
     </div>
-    <a class="nav-cta" href="https://github.com/YottaMeta/RiseDock/releases">免费下载</a>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a href="#pricing" style="font-size:13px;color:var(--fog);font-weight:500;">价格</a>
+      <a class="nav-cta" href="https://github.com/YottaMeta/RiseDock/releases">免费下载</a>
+    </div>
   </header>
 
   <main>
@@ -623,12 +704,56 @@
       </div>
     </section>
 
+    <section id="pricing">
+      <div class="wrap">
+        <p class="sec-kicker">价格</p>
+        <h2 class="sec-title">先免费用起来，重度再升级。</h2>
+        <p class="sec-lead">订阅越久越省；永久版一机一码，多台打包递减。功能解锁一致：无限场景 / 启动项 · 拖拽排序 · 批量导入。</p>
+        <div class="price-grid">
+          <article class="price-card">
+            <div class="tier">白银月卡</div>
+            <div class="amount">¥9.9<small>/ 30 天</small></div>
+            <p class="meta">全部功能 · 适合先试</p>
+          </article>
+          <article class="price-card">
+            <div class="tier">黄金季卡</div>
+            <div class="amount">¥24.9<small>/ 90 天</small></div>
+            <p class="meta">约 ¥8.3/月 · 比月卡省 16%</p>
+          </article>
+          <article class="price-card featured">
+            <div class="tier">铂金年卡 · 推荐</div>
+            <div class="amount">¥79<small>/ 365 天</small></div>
+            <p class="meta">约 ¥6.6/月 · 比月卡省 33%</p>
+          </article>
+          <article class="price-card">
+            <div class="tier">永久版</div>
+            <div class="amount">¥128<small>起 / 台</small></div>
+            <p class="meta">买断终身更新 · 多台更划算</p>
+          </article>
+        </div>
+        <table class="perm-table" aria-label="永久版多台价格">
+          <thead>
+            <tr><th>永久版台数</th><th>总价</th><th>单台</th><th>说明</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1 台</td><td><strong>¥128</strong></td><td>¥128</td><td>基准</td></tr>
+            <tr><td>2 台</td><td><strong>¥168</strong></td><td>¥84</td><td>省 ¥88</td></tr>
+            <tr><td>3 台</td><td><strong>¥198</strong></td><td>¥66</td><td>省 ¥186</td></tr>
+            <tr><td>4 台</td><td><strong>¥218</strong></td><td>¥54.5</td><td>省 ¥294</td></tr>
+            <tr><td>5 台</td><td><strong>¥228</strong></td><td>¥45.6</td><td>省 ¥412</td></tr>
+            <tr><td>6 台起</td><td colspan="3">每台 +¥10（封底）</td></tr>
+          </tbody>
+        </table>
+        <p class="sec-lead" style="margin-top:22px;margin-bottom:0;">免费额度：1 场景 × 3 启动项。订阅 / 永久均为一机一码；过期保留最早场景与 3 项，数据不删，续费解冻。</p>
+      </div>
+    </section>
+
     <section>
       <div class="wrap">
         <div class="offer" id="download">
           <div class="price-pill">免费版可用 · 1 场景 × 3 启动项</div>
-          <h2 class="sec-title">先免费用起来，重度再升级。</h2>
-          <p class="sec-lead">一个场景收纳好工具，一键启程。日常轻度够用；场景多了、启动项多了，再考虑会员。数据在本机，续费只是解冻，不删你的收纳。</p>
+          <h2 class="sec-title">下载 Windows 版，桌面只留一个图标。</h2>
+          <p class="sec-lead">看完价格再下也行——先免费用起来。完整价目见上方，或应用内「使用帮助 → 授权说明」。</p>
           <a class="btn-primary" href="https://github.com/YottaMeta/RiseDock/releases">
             前往 GitHub Releases 下载 →
           </a>
@@ -649,6 +774,10 @@
             <p>它们擅长「搜一个就开」。启程典擅长「一组一起开」——先收进场景（典 / Dock），再一键启程（启 / Rise）。专治开机手忙脚乱。</p>
           </details>
           <details>
+            <summary>怎么买？多少钱？</summary>
+            <p>应用内复制机器码 → 加客服微信发「姓名 + 联系方式 + 机器码」。价目：月卡 ¥9.9 · 季卡 ¥24.9 · 年卡 ¥79 · 永久 ¥128 起（详见 <a href="#pricing" style="color:var(--dawn-hot)">价格区</a>）。</p>
+          </details>
+          <details>
             <summary>会不会把我的数据传到云上？</summary>
             <p>场景与启动项保存在本机。授权校验为本地逻辑；检查更新才需要联网。</p>
           </details>
@@ -657,8 +786,8 @@
             <p>本仓库只发布 Windows 安装包与产品说明，不开放源码。请从 Releases 下载安装，不要 clone 期望得到工程。</p>
           </details>
           <details>
-            <summary>免费能用多久？</summary>
-            <p>未激活可持续使用免费额度（1 场景 / 每场景 3 启动项）。需要更多场景与能力时再升级即可。</p>
+            <summary>免费能用多久？过期会丢数据吗？</summary>
+            <p>未激活可持续用免费额度（1 场景 / 每场景 3 启动项）。过期后保留最早场景与最早 3 项，其余冻结但不删除；续费后解冻。</p>
           </details>
         </div>
       </div>
