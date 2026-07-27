@@ -1,7 +1,7 @@
 # RiseDock（启程典）
 
 <p align="center">
-  <img alt="启程典 RiseDock" src="https://img.shields.io/badge/启程典-RiseDock-e8a045?style=for-the-badge&labelColor=071018" />
+  <img src="https://yottameta.github.io/RiseDock/banner.jpg" alt="启程典 RiseDock — 一个场景，一键开工" width="720" />
 </p>
 
 <p align="center">
