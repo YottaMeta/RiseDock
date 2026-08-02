@@ -49,8 +49,8 @@
 
 | 地址 | 链接 |
 |------|------|
-| ① | [GitHub Releases](https://github.com/YottaMeta/RiseDock/releases)（当前可用） |
-| ② | 待补充：百度网盘等免会员链接（确定后写进官网与本 README） |
+| ① 蓝奏云（推荐） | https://wwbrt.lanzouu.com/b01euo8frg · 密码 **`brza`** |
+| ② GitHub Releases | https://github.com/YottaMeta/RiseDock/releases |
 | 说明页 | [官网下载区](https://yottameta.github.io/RiseDock/#download) |
 
 | 步骤 | 操作 |
