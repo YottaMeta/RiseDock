@@ -16,13 +16,14 @@
 
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a> ·
-  <a href="https://github.com/YottaMeta/RiseDock/releases"><b>免费下载 Windows 版</b></a> ·
+  <a href="https://risedock-releases.oss-cn-beijing.aliyuncs.com/latest/RiseDock-setup.exe"><b>免费下载 Windows 版</b></a> ·
+  <a href="https://github.com/YottaMeta/RiseDock/releases">GitHub 备用</a> ·
   Win10 / 11 64 位
 </p>
 
 ---
 
-> **说明：** 本仓库 **不提供源代码**，仅发布 **Windows 安装包**、[产品官网](https://yottameta.github.io/RiseDock/) 与说明。请从 [Releases](https://github.com/YottaMeta/RiseDock/releases) 下载 `RiseDock_*-setup.exe`，不要 clone 本仓库期望得到工程源码。
+> **说明：** 本仓库 **不提供源代码**，仅发布 **Windows 安装包**、[产品官网](https://yottameta.github.io/RiseDock/) 与说明。国内用户请优先用 [OSS 直链](https://risedock-releases.oss-cn-beijing.aliyuncs.com/latest/RiseDock-setup.exe)；也可从 [Releases](https://github.com/YottaMeta/RiseDock/releases) 下载。不要 clone 本仓库期望得到工程源码。
 
 ---
 
@@ -47,8 +48,8 @@
 
 | 步骤 | 操作 |
 |------|------|
-| 1 | 打开 **[Releases](https://github.com/YottaMeta/RiseDock/releases)**，选择最新版本 |
-| 2 | 下载 `RiseDock_x.y.z_x64-setup.exe` |
+| 1 | **推荐（国内）**：[直链下载 RiseDock-setup.exe](https://risedock-releases.oss-cn-beijing.aliyuncs.com/latest/RiseDock-setup.exe) |
+| 2 | 备用：[GitHub Releases](https://github.com/YottaMeta/RiseDock/releases) 下载 `RiseDock_x.y.z_x64-setup.exe` |
 | 3 | 若 Windows SmartScreen 提示「无法识别」→ **更多信息** → **仍要运行** |
 | 4 | 按向导安装后启动 |
 
