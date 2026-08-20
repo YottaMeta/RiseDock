@@ -107,7 +107,7 @@
 
 ## 版本
 
-当前 **[v1.2.16](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.16)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.2.17](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.17)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
