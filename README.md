@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.17"><b>最新安装包 v1.2.17</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.18"><b>最新安装包 v1.2.18</b></a>
 </p>
 
 ---
@@ -143,17 +143,15 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.16** 的可直接检查更新升到 **1.2.17**。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.17** 的可直接检查更新升到 **1.2.18**。
 
 ---
 
-## 本版 v1.2.17
+## 本版 v1.2.18
 
-- 脚本启动项（`.vbs` / `.vbe` / `.wsf`）可以正常打开
-- 电脑偏慢或杀毒扫描时，不再被误判而退出
-- 场景只写本机数据库，不再另存一份容易过期的缓存
+- 藏托盘不再自己退出：别的窗口标题里带 debug 等字时，不再被误判成调试而退出
 
-窗口位置记忆沿用 1.2.16。完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.17)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.18)。
 
 ---
 
@@ -181,7 +179,7 @@
 
 ## 版本
 
-当前 **[v1.2.17](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.17)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.2.18](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.18)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
