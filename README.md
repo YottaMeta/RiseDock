@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.18"><b>最新安装包 v1.2.18</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.19"><b>最新安装包 v1.2.19</b></a>
 </p>
 
 ---
@@ -143,15 +143,15 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.17** 的可直接检查更新升到 **1.2.18**。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.18** 的可直接检查更新升到 **1.2.19**。
 
 ---
 
-## 本版 v1.2.18
+## 本版 v1.2.19
 
-- 藏托盘不再自己退出：别的窗口标题里带 debug 等字时，不再被误判成调试而退出
+- **授权管理购买说明**：弹窗展示价格与购买步骤（须先付款才发激活码；收款方式客服私发）
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.18)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.19)。
 
 ---
 
@@ -179,7 +179,7 @@
 
 ## 版本
 
-当前 **[v1.2.18](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.18)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.2.19](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.19)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
