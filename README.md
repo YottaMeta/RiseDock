@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.19"><b>最新安装包 v1.2.19</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.0"><b>最新安装包 v1.3.0</b></a>
 </p>
 
 ---
@@ -143,15 +143,16 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.18** 的可直接检查更新升到 **1.2.19**。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.19** 的可直接检查更新升到 **1.3.0**。升级后旧授权码失效，请联系重签。
 
 ---
 
-## 本版 v1.2.19
+## 本版 v1.3.0
 
-- **授权管理购买说明**：弹窗展示价格与购买步骤（须先付款才发激活码；收款方式客服私发）
+- **授权体系升级**：旧授权码升级后失效，请联系重签
+- 读不到本机标识时拒绝激活，不再改用默认机器码
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.19)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.0)。
 
 ---
 
@@ -179,7 +180,7 @@
 
 ## 版本
 
-当前 **[v1.2.19](https://github.com/YottaMeta/RiseDock/releases/tag/v1.2.19)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.3.0](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.0)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
