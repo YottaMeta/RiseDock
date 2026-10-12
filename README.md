@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.0"><b>最新安装包 v1.3.0</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.1"><b>最新安装包 v1.3.1</b></a>
 </p>
 
 ---
@@ -97,7 +97,7 @@
 
 ### 观感与数据
 
-- **16 款主题**：免费 6 款 + 会员 10 款（墨黑 / 霜蓝 / 玫瑰金 / 青瓷等），换肤不换习惯。
+- **23 款主题**：免费 8 款 + 会员 15 款（宣纸 / 苔色 / 兰花 / 墨黑等）。浅色和深色都按底色配字。
 - **本地自动备份**：按设定频率备份（默认每周），设置里可管理、恢复；也支持备份到你指定的非系统盘。桌面备份 ≠ 重装保命，重要库请另存一份。
 - **到期会提醒**：到期前 3 天 / 1 天轻提示，到期当天弹窗；续费后告知恢复了多少场景 / 项。数据不删，只冻结超额部分。
 
@@ -143,16 +143,17 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.2.19** 的可直接检查更新升到 **1.3.0**。升级后旧授权码失效，请联系重签。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.0** 的可直接升到 **1.3.1**，不用重新激活。1.3.0 之前的旧授权码仍然需要重签。
 
 ---
 
-## 本版 v1.3.0
+## 本版 v1.3.1
 
-- **授权体系升级**：旧授权码升级后失效，请联系重签
-- 读不到本机标识时拒绝激活，不再改用默认机器码
+- **主题**：23 款（免费 8、会员 15），含宣纸、苔色、兰花
+- **批量删除**：场景和启动项都可以一次删多个
+- 从 1.3.0 升级不用重新激活
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.0)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.1)。
 
 ---
 
@@ -180,7 +181,7 @@
 
 ## 版本
 
-当前 **[v1.3.0](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.0)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.3.1](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.1)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
