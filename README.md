@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.4"><b>最新安装包 v1.3.4</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.5"><b>最新安装包 v1.3.5</b></a>
 </p>
 
 ---
@@ -143,16 +143,16 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.3** 的可直接升到 **1.3.4**，不用重新激活。1.3.0 之前的旧授权码仍然需要重签。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.4** 的可直接升到 **1.3.5**，不用重新激活。1.3.0 之前的旧授权码仍然需要重签。
 
 ---
 
-## 本版 v1.3.4
+## 本版 v1.3.5
 
-- **装旧版本提前拦**：装过新版本的电脑上误开旧版安装包，一打开就提醒「本机装过更高版本，不能安装旧版本」，不会再走到「先卸载、再被拒」
-- 从 1.3.3 升级不用重新激活
+- **升级少一步**：升级安装时，安装程序现在默认选中「请勿卸载」——直接点「下一步」即可覆盖安装完成升级，不再默认先卸载旧版本
+- 从 1.3.4 升级不用重新激活
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.4)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.5)。
 
 ---
 
@@ -180,7 +180,7 @@
 
 ## 版本
 
-当前 **[v1.3.4](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.4)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.3.5](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.5)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
