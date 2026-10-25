@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.5"><b>最新安装包 v1.3.5</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.6"><b>最新安装包 v1.3.6</b></a>
 </p>
 
 ---
@@ -91,6 +91,7 @@
 
 - **路径自愈**：目标文件找不到时，看板、热键、搜索、编辑器都会弹出定位，不再只在一键启动里能修。
 - **窗口位置记忆**：启动项可记下窗口位置，下次还原；可清除，也可跳过这一次。多显示器几何一起记。
+- **管理员运行**：exe / lnk / bat / cmd / ps1 启动项可右键临时提权，也可在编辑里持久化；每次启动都会弹 Windows UAC，启程典自身不提权。
 - **启动后隐藏**：可选择启动后把主窗口藏起来，桌面只留你真正要干活的那些窗。默认不藏，随你。
 - **快捷启动**：设置里单独配名称、路径、全局热键，一键打开单个应用 / 文件 / 网址。不占场景额度，也不跟场景热键、显隐热键打架（占用会提示）。
 - **系统组件**：独立面板单击执行关机 / 重启 / 锁屏、此电脑、控制面板等。不进场景、不设热键，不占免费额度。
@@ -143,16 +144,18 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.4** 的可直接升到 **1.3.5**，不用重新激活。1.3.0 之前的旧授权码仍然需要重签。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.5** 的可直接升到 **1.3.6**，不用重新激活。1.3.0 之前的旧授权码仍然需要重签。
 
 ---
 
-## 本版 v1.3.5
+## 本版 v1.3.6
 
-- **升级少一步**：升级安装时，安装程序现在默认选中「请勿卸载」——直接点「下一步」即可覆盖安装完成升级，不再默认先卸载旧版本
-- 从 1.3.4 升级不用重新激活
+- **启动项管理员运行**：支持 exe / lnk / bat / cmd / ps1；右键可临时提权，编辑中可持久化，每次启动都会弹 UAC。
+- **窗口恢复修复**：开机自启时不再把最大化外框误当普通窗口恢复，顶栏不会跑到屏幕外；多显示器和任务栏工作区已纳入校验。
+- **最大化状态反馈**：最大化后按钮与悬停提示变为「还原」，窗口模式与最大化模式切换更明确。
+- 从 1.3.5 升级不用重新激活。
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.5)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.6)。
 
 ---
 
@@ -180,7 +183,7 @@
 
 ## 版本
 
-当前 **[v1.3.5](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.5)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.3.6](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.6)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
