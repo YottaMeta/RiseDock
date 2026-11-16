@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.7"><b>最新安装包 v1.3.7</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.8"><b>最新安装包 v1.3.8</b></a>
 </p>
 
 ---
@@ -144,20 +144,18 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.6** 的可直接升到 **1.3.7**，不用重新激活。1.3.0 之前的旧授权码仍然需要重签。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.7** 的可直接升到 **1.3.8**，不用重新激活；仍停留在 **1.3.6** 或更早版本的用户，请手动覆盖安装最新版。1.3.0 之前的旧授权码仍然需要重签。
 
 ---
 
-## 本版 v1.3.7
+## 本版 v1.3.8
 
-- **安全维护**：收窄桌面能力权限，移除不必要的远程页面与命令执行授权。
-- **备份恢复加固**：拒绝路径穿越、绝对路径和非法压缩条目。
-- **启动稳定性**：反调试检测改为只记录、不退出，降低安全软件、录屏工具或系统管控造成的闪退风险。
-- **异常兜底**：新增界面异常兜底和启动超时提示；异常时不会清除本地数据。
-- **发布门禁**：清理未使用代码与过期构建文件，补充一键发布门禁。
-- 从 1.3.6 升级不用重新激活。
+- **更新通道维护**：完成更新签名密钥切换，后续版本使用新密钥验证。
+- **功能稳定**：功能与界面与 1.3.7 保持一致，没有新增功能。
+- 从 1.3.7 升级不用重新激活。
+- 仍停留在 1.3.6 或更早版本的用户，请手动覆盖安装最新版。
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.7)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.8)。
 
 ---
 
@@ -185,7 +183,7 @@
 
 ## 版本
 
-当前 **[v1.3.7](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.7)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.3.8](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.8)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
