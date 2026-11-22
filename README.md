@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://yottameta.github.io/RiseDock/"><b>官网介绍</b></a>　·　
   <a href="https://yottameta.github.io/RiseDock/#download"><b>免费下载</b></a>　·　
-  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.9"><b>最新安装包 v1.3.9</b></a>
+  <a href="https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.10"><b>最新安装包 v1.3.10</b></a>
 </p>
 
 ---
@@ -144,21 +144,17 @@
 | 运行时 | 安装程序会处理 **WebView2**；完全离线请预装 [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 网络 | 检查更新需联网；授权在本机校验，不把场景传到云上 |
 
-已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.7 / 1.3.8** 的可应用内升级到 **1.3.9**，不用重新激活；仍停留在 **1.3.6** 或更早版本的用户，请手动覆盖安装最新版。1.3.0 之前的旧授权码仍然需要重签。
+已安装用户：应用内 **设置 → 检查更新**。请只从本仓库 Releases / 官方更新通道获取安装包。已装 **1.3.7 至 1.3.9** 的可应用内升级到 **1.3.10**，不用重新激活；仍停留在 **1.3.6** 或更早版本的用户，请手动覆盖安装最新版。1.3.0 之前的旧授权码仍然需要重签。
 
 ---
 
-## 本版 v1.3.9
+## 本版 v1.3.10
 
-- **场景健康检查**：场景卡片会标出路径失效和已禁用项，并可直接进入修复或处理。
-- **启动结果面板**：场景启动后显示逐项成功、失败、原因和耗时，失败项支持重试，错误信息可一键复制。
-- **修复流程收敛**：自动定位失效路径后会停留在修复流程，不会误启动场景。
-- **启动通知收敛**：授权提醒、更新提醒和本版新增统一显示，避免多个弹窗同时出现。
-- **免费整理能力**：拖拽排序、场景置顶、启动项置顶和频率排序保持免费。
-- **重复启动修复**：应用仍在运行时重复启动场景，不再长时间等待。
-- 从 1.3.8 升级不用重新激活；仍停留在 1.3.6 或更早版本的用户，请手动覆盖安装最新版。
+- **九宫格显示修复**：场景项数、启用数和健康状态不再被操作按钮挤压截断。
+- **布局调整**：统计信息与健康状态使用完整一行，操作按钮移到下一行。
+- 从 1.3.9 升级不用重新激活；仍停留在 1.3.6 或更早版本的用户，请手动覆盖安装最新版。
 
-完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.9)。
+完整说明见 [Release 页](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.10)。
 
 ---
 
@@ -186,7 +182,7 @@
 
 ## 版本
 
-当前 **[v1.3.9](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.9)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
+当前 **[v1.3.10](https://github.com/YottaMeta/RiseDock/releases/tag/v1.3.10)**。以 [Releases](https://github.com/YottaMeta/RiseDock/releases) 最新 tag 为准。
 
 ---
 
